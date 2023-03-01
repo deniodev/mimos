@@ -33,6 +33,10 @@ body{
     background: #eee;
 }
 
+section{
+    padding: 2rem 9%;
+}
+
 .btn{
    margin-top: 1rem;
    display:inline-block;
@@ -46,7 +50,7 @@ body{
 }
 
 .btn:hover{
-    background: #ff66cc;
+    background: #f36480;
     color: #fff;
 }
 
@@ -69,7 +73,7 @@ body{
 }
 
 .header  .logo i{
-    color: #ff66cc;
+    color: #f36480;
 }
 
 .header .navbar a{
@@ -79,7 +83,7 @@ body{
 }
 
 .header .navbar a:hover{
-    color: #ff66cc;
+    color: #f36480;
 }
 
 .header  .icons div{
@@ -97,7 +101,7 @@ body{
 }
 
 .header  .icons div:hover{
-    background: #ff66cc;
+    background: #f36480;
     color: #fff;
 }
 
@@ -141,7 +145,7 @@ body{
 }
 
 .header .search-form label:hover{
-    color: #ff66cc;
+    color: #f36480;
 }
 
 .header .shopping-cart{
@@ -181,7 +185,7 @@ body{
 }
 
 .header .shopping-cart .box .fa-trash:hover{
-    color: #ff66cc;
+    color: #f36480;
 }
 
 .header .shopping-cart .box .content h3{
@@ -252,10 +256,42 @@ body{
 }
 
 .header .login-form p a{
-    color: #ff66cc;
+    color: #f36480;
     text-decoration: underline;
 }
 
+.home{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/images/banner.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+
+}
+
+.home .content{
+    text-align: center;
+    width: 60rem;
+}
+
+.home .content h3{
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.home .content h3 span{
+    color: ;
+}
+
+.home .content p{
+    color: var(--black);
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
 
 
 
@@ -288,6 +324,10 @@ body{
     }
     .header{
         padding: 2rem;
+    }
+
+    section{
+        padding: 2rem ;
     }
 }
 
